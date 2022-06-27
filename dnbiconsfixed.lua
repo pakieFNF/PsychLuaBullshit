@@ -1,6 +1,6 @@
 local turnvalue = 25
 function onBeatHit()
-
+-- bbpanzu's dnb icon script, except the turn value at the top functions as a global value and effects the actual turn value 
 turnvalue = turnvalue
 if curBeat % 2 == 0 then
 turnvalue = -turnvalue
